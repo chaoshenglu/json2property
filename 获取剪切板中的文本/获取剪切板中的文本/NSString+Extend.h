@@ -12,6 +12,10 @@
 
 + (NSString *)stringWithDic:(NSDictionary *)dic;
 
++ (void)log_propertyWithResponseObject:(id)responseObject;
+
++ (NSString *)allProperty;
+
 @end
 
 @interface NSDictionary (Extend)

@@ -15,8 +15,9 @@
 - (id)runWithInput:(id)input fromAction:(AMAction *)anAction error:(NSDictionary **)errorInfo {
     NSPasteboard *pb = [NSPasteboard generalPasteboard];
     NSString *string = [pb stringForType:NSPasteboardTypeString];
-    
-    return string;
+    NSDictionary *dic = [NSDictionary dictionaryWithString:string];
+    [NSString log_propertyWithResponseObject:dic];
+    return [NSString allProperty];
 }
 
 @end

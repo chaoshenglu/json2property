@@ -13,3 +13,14 @@
 - (id)runWithInput:(id)input fromAction:(AMAction *)anAction error:(NSDictionary **)errorInfo;
 
 @end
+
+
+/*
+ 
+ 配合AppleScript代码：
+ 
+ on run {input, parameters}
+ set the clipboard to (input as string)
+ end run
+ 
+ */
