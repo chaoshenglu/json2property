@@ -1,5 +1,5 @@
 # json2property
-复制json文本到剪贴板，然后就可以“粘贴成property”
+
 ```
 - (id)runWithInput:(id)input fromAction:(AMAction *)anAction error:(NSDictionary **)errorInfo {
     //获取鼠标选中的字符串
@@ -15,7 +15,7 @@
     //合并生成最终需要的字符串
     NSString *result = [NSString allProperty];
     
-    //原本我希望通过以下代码，直接将结果放到剪贴板上。但测试发现以下代码无效。所以只能在Automator中通过AppleScript创建一个新的action
+    //原本我希望通过以下代码，直接将结果放到剪贴板上。但测试无效。所以只好在通过AppleScript创建一个新的action
 //    [[NSPasteboard generalPasteboard] declareTypes:[NSArray arrayWithObject:NSStringPboardType] owner:nil];
 //    [[NSPasteboard generalPasteboard] clearContents];
 //    [[NSPasteboard generalPasteboard] setString:result forType:NSStringPboardType];
