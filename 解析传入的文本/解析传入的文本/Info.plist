@@ -10,7 +10,7 @@
 		<true/>
 		<key>Types</key>
 		<array>
-			<string>com.apple.cocoa.attributed-string</string>
+			<string>com.apple.cocoa.string</string>
 		</array>
 	</dict>
 	<key>AMApplication</key>
@@ -56,7 +56,7 @@
 		<string>List</string>
 		<key>Types</key>
 		<array>
-			<string>com.apple.cocoa.attributed-string</string>
+			<string>com.apple.cocoa.string</string>
 		</array>
 	</dict>
 	<key>AMRequiredResources</key>
@@ -68,7 +68,7 @@
 		<key>ApplyButton</key>
 		<string>(* Button label for user to add proposed Action, e.g. Add. *)</string>
 		<key>IgnoreButton</key>
-		<string>(* Button label for user not to add proposed Action, e.g. Don&apos;t Add. *)</string>
+		<string>(* Button label for user not to add proposed Action, e.g. Don't Add. *)</string>
 		<key>Level</key>
 		<integer>0</integer>
 		<key>Message</key>
