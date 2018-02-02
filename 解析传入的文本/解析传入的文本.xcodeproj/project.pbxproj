@@ -7,76 +7,76 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C9A77B4E20230D0500C41D62 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A77B4D20230D0500C41D62 /* test.m */; };
-		C9A77B5120230D0500C41D62 /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9A77B4F20230D0500C41D62 /* main.xib */; };
-		C9A77B5520230D0500C41D62 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9A77B5320230D0500C41D62 /* InfoPlist.strings */; };
-		C9A77B5D20230DD500C41D62 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A77B5C20230DD500C41D62 /* AppKit.framework */; };
-		C9A77B602023155700C41D62 /* NSString+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A77B5F2023155700C41D62 /* NSString+Extend.m */; };
-		C9A77B62202315A600C41D62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A77B61202315A600C41D62 /* Foundation.framework */; };
+		C968C4A02023261C004F8679 /* Json2property.m in Sources */ = {isa = PBXBuildFile; fileRef = C968C49F2023261C004F8679 /* Json2property.m */; };
+		C968C4A32023261C004F8679 /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = C968C4A12023261C004F8679 /* main.xib */; };
+		C968C4A72023261C004F8679 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C968C4A52023261C004F8679 /* InfoPlist.strings */; };
+		C968C4AF20232687004F8679 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C968C4AE20232687004F8679 /* Foundation.framework */; };
+		C968C4B12023268D004F8679 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C968C4B02023268D004F8679 /* AppKit.framework */; };
+		C968C4B42023269A004F8679 /* NSString+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = C968C4B32023269A004F8679 /* NSString+Extend.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C9A77B4920230D0400C41D62 /* 获取剪切板中的文本.action */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "获取剪切板中的文本.action"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9A77B4C20230D0400C41D62 /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
-		C9A77B4D20230D0500C41D62 /* test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
-		C9A77B5020230D0500C41D62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/main.xib; sourceTree = "<group>"; };
-		C9A77B5220230D0500C41D62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C9A77B5420230D0500C41D62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C9A77B5C20230DD500C41D62 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		C9A77B5E2023155700C41D62 /* NSString+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extend.h"; sourceTree = "<group>"; };
-		C9A77B5F2023155700C41D62 /* NSString+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extend.m"; sourceTree = "<group>"; };
-		C9A77B61202315A600C41D62 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C968C49B2023261C004F8679 /* 解析传入的文本.action */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "解析传入的文本.action"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C968C49E2023261C004F8679 /* Json2property.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Json2property.h; sourceTree = "<group>"; };
+		C968C49F2023261C004F8679 /* Json2property.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Json2property.m; sourceTree = "<group>"; };
+		C968C4A22023261C004F8679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/main.xib; sourceTree = "<group>"; };
+		C968C4A42023261C004F8679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C968C4A62023261C004F8679 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C968C4AE20232687004F8679 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C968C4B02023268D004F8679 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C968C4B22023269A004F8679 /* NSString+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extend.h"; sourceTree = "<group>"; };
+		C968C4B32023269A004F8679 /* NSString+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extend.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C9A77B4520230D0400C41D62 /* Frameworks */ = {
+		C968C4972023261C004F8679 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9A77B62202315A600C41D62 /* Foundation.framework in Frameworks */,
-				C9A77B5D20230DD500C41D62 /* AppKit.framework in Frameworks */,
+				C968C4B12023268D004F8679 /* AppKit.framework in Frameworks */,
+				C968C4AF20232687004F8679 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C9A77B3F20230D0400C41D62 = {
+		C968C4912023261C004F8679 = {
 			isa = PBXGroup;
 			children = (
-				C9A77B4B20230D0400C41D62 /* 获取剪切板中的文本 */,
-				C9A77B4A20230D0400C41D62 /* Products */,
-				C9A77B5B20230DD500C41D62 /* Frameworks */,
+				C968C49D2023261C004F8679 /* 解析传入的文本 */,
+				C968C49C2023261C004F8679 /* Products */,
+				C968C4AD20232687004F8679 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		C9A77B4A20230D0400C41D62 /* Products */ = {
+		C968C49C2023261C004F8679 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C9A77B4920230D0400C41D62 /* 获取剪切板中的文本.action */,
+				C968C49B2023261C004F8679 /* 解析传入的文本.action */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C9A77B4B20230D0400C41D62 /* 获取剪切板中的文本 */ = {
+		C968C49D2023261C004F8679 /* 解析传入的文本 */ = {
 			isa = PBXGroup;
 			children = (
-				C9A77B5E2023155700C41D62 /* NSString+Extend.h */,
-				C9A77B5F2023155700C41D62 /* NSString+Extend.m */,
-				C9A77B4C20230D0400C41D62 /* test.h */,
-				C9A77B4D20230D0500C41D62 /* test.m */,
-				C9A77B5220230D0500C41D62 /* Info.plist */,
-				C9A77B5320230D0500C41D62 /* InfoPlist.strings */,
-				C9A77B4F20230D0500C41D62 /* main.xib */,
+				C968C4B22023269A004F8679 /* NSString+Extend.h */,
+				C968C4B32023269A004F8679 /* NSString+Extend.m */,
+				C968C49E2023261C004F8679 /* Json2property.h */,
+				C968C49F2023261C004F8679 /* Json2property.m */,
+				C968C4A12023261C004F8679 /* main.xib */,
+				C968C4A42023261C004F8679 /* Info.plist */,
+				C968C4A52023261C004F8679 /* InfoPlist.strings */,
 			);
-			path = "获取剪切板中的文本";
+			path = "解析传入的文本";
 			sourceTree = "<group>";
 		};
-		C9A77B5B20230DD500C41D62 /* Frameworks */ = {
+		C968C4AD20232687004F8679 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C9A77B61202315A600C41D62 /* Foundation.framework */,
-				C9A77B5C20230DD500C41D62 /* AppKit.framework */,
+				C968C4B02023268D004F8679 /* AppKit.framework */,
+				C968C4AE20232687004F8679 /* Foundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -84,40 +84,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C9A77B4820230D0400C41D62 /* 获取剪切板中的文本 */ = {
+		C968C49A2023261C004F8679 /* 解析传入的文本 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C9A77B5820230D0500C41D62 /* Build configuration list for PBXNativeTarget "获取剪切板中的文本" */;
+			buildConfigurationList = C968C4AA2023261C004F8679 /* Build configuration list for PBXNativeTarget "解析传入的文本" */;
 			buildPhases = (
-				C9A77B4420230D0400C41D62 /* Sources */,
-				C9A77B4520230D0400C41D62 /* Frameworks */,
-				C9A77B4620230D0400C41D62 /* Resources */,
-				C9A77B4720230D0400C41D62 /* ShellScript */,
+				C968C4962023261C004F8679 /* Sources */,
+				C968C4972023261C004F8679 /* Frameworks */,
+				C968C4982023261C004F8679 /* Resources */,
+				C968C4992023261C004F8679 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "获取剪切板中的文本";
-			productName = "获取剪切板中的文本";
-			productReference = C9A77B4920230D0400C41D62 /* 获取剪切板中的文本.action */;
+			name = "解析传入的文本";
+			productName = "解析传入的文本";
+			productReference = C968C49B2023261C004F8679 /* 解析传入的文本.action */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C9A77B4020230D0400C41D62 /* Project object */ = {
+		C968C4922023261C004F8679 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = com.lixiang;
 				TargetAttributes = {
-					C9A77B4820230D0400C41D62 = {
+					C968C49A2023261C004F8679 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = C9A77B4320230D0400C41D62 /* Build configuration list for PBXProject "获取剪切板中的文本" */;
+			buildConfigurationList = C968C4952023261C004F8679 /* Build configuration list for PBXProject "解析传入的文本" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -125,30 +125,30 @@
 				en,
 				Base,
 			);
-			mainGroup = C9A77B3F20230D0400C41D62;
-			productRefGroup = C9A77B4A20230D0400C41D62 /* Products */;
+			mainGroup = C968C4912023261C004F8679;
+			productRefGroup = C968C49C2023261C004F8679 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C9A77B4820230D0400C41D62 /* 获取剪切板中的文本 */,
+				C968C49A2023261C004F8679 /* 解析传入的文本 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C9A77B4620230D0400C41D62 /* Resources */ = {
+		C968C4982023261C004F8679 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9A77B5120230D0500C41D62 /* main.xib in Resources */,
-				C9A77B5520230D0500C41D62 /* InfoPlist.strings in Resources */,
+				C968C4A32023261C004F8679 /* main.xib in Resources */,
+				C968C4A72023261C004F8679 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		C9A77B4720230D0400C41D62 /* ShellScript */ = {
+		C968C4992023261C004F8679 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -164,30 +164,30 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C9A77B4420230D0400C41D62 /* Sources */ = {
+		C968C4962023261C004F8679 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9A77B4E20230D0500C41D62 /* test.m in Sources */,
-				C9A77B602023155700C41D62 /* NSString+Extend.m in Sources */,
+				C968C4A02023261C004F8679 /* Json2property.m in Sources */,
+				C968C4B42023269A004F8679 /* NSString+Extend.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C9A77B4F20230D0500C41D62 /* main.xib */ = {
+		C968C4A12023261C004F8679 /* main.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C9A77B5020230D0500C41D62 /* Base */,
+				C968C4A22023261C004F8679 /* Base */,
 			);
 			name = main.xib;
 			sourceTree = "<group>";
 		};
-		C9A77B5320230D0500C41D62 /* InfoPlist.strings */ = {
+		C968C4A52023261C004F8679 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C9A77B5420230D0500C41D62 /* en */,
+				C968C4A62023261C004F8679 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -195,7 +195,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C9A77B5620230D0500C41D62 /* Debug */ = {
+		C968C4A82023261C004F8679 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -250,7 +250,7 @@
 			};
 			name = Debug;
 		};
-		C9A77B5720230D0500C41D62 /* Release */ = {
+		C968C4A92023261C004F8679 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -298,31 +298,31 @@
 			};
 			name = Release;
 		};
-		C9A77B5920230D0500C41D62 /* Debug */ = {
+		C968C4AB2023261C004F8679 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = Y6PDMHGCWT;
-				INFOPLIST_FILE = "获取剪切板中的文本/Info.plist";
+				INFOPLIST_FILE = "解析传入的文本/Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Automator";
 				OTHER_OSAFLAGS = "-x -t 0 -c 0";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lixiang.---------";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lixiang.json2property;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = action;
 			};
 			name = Debug;
 		};
-		C9A77B5A20230D0500C41D62 /* Release */ = {
+		C968C4AC2023261C004F8679 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = Y6PDMHGCWT;
-				INFOPLIST_FILE = "获取剪切板中的文本/Info.plist";
+				INFOPLIST_FILE = "解析传入的文本/Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Automator";
 				OTHER_OSAFLAGS = "-x -t 0 -c 0";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lixiang.---------";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lixiang.json2property;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = action;
 			};
@@ -331,25 +331,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C9A77B4320230D0400C41D62 /* Build configuration list for PBXProject "获取剪切板中的文本" */ = {
+		C968C4952023261C004F8679 /* Build configuration list for PBXProject "解析传入的文本" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C9A77B5620230D0500C41D62 /* Debug */,
-				C9A77B5720230D0500C41D62 /* Release */,
+				C968C4A82023261C004F8679 /* Debug */,
+				C968C4A92023261C004F8679 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C9A77B5820230D0500C41D62 /* Build configuration list for PBXNativeTarget "获取剪切板中的文本" */ = {
+		C968C4AA2023261C004F8679 /* Build configuration list for PBXNativeTarget "解析传入的文本" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C9A77B5920230D0500C41D62 /* Debug */,
-				C9A77B5A20230D0500C41D62 /* Release */,
+				C968C4AB2023261C004F8679 /* Debug */,
+				C968C4AC2023261C004F8679 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C9A77B4020230D0400C41D62 /* Project object */;
+	rootObject = C968C4922023261C004F8679 /* Project object */;
 }

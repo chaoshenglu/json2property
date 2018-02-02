@@ -1,22 +1,20 @@
 //
-//  testAction.m
-//  testAction
+//  Json2property.m
+//  Json2property
 //
 //  Created by lixiang on 2018/2/1.
 //  Copyright © 2018年 com.lixiang. All rights reserved.
 //
 
-#import "test.h"
-#import <AppKit/AppKit.h>
-#import "NSString+Extend.h"
+#import "Json2property.h"
 
-@implementation test
+@implementation Json2property
 
 - (id)runWithInput:(id)input fromAction:(AMAction *)anAction error:(NSDictionary **)errorInfo {
-    NSPasteboard *pb = [NSPasteboard generalPasteboard];
-    NSString *string = [pb stringForType:NSPasteboardTypeString];
+    NSArray *arr = (NSArray *)input;
+    NSString *string = arr.lastObject;
     NSDictionary *dic = [NSDictionary dictionaryWithString:string];
-    [NSString log_propertyWithResponseObject:dic];
+    [NSString findPropertyWithDic:dic];
     return [NSString allProperty];
 }
 

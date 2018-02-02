@@ -4,7 +4,7 @@
 /* AMCategory localized strings */
 /* e.g. "Text" = "Text"; */
 
-AMName = "获取剪切板中的文本";
+AMName = "解析传入的文本";
 
 /* AMDefaultParameters localized values */
 /* e.g. myDefaultIntegerParameter = 0; */

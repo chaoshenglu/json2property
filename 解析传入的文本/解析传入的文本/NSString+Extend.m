@@ -12,7 +12,7 @@ NSMutableString *propertyStr;
 
 @implementation NSString (Extend)
 
-+ (void)log_propertyWithResponseObject:(id)responseObject {
++ (void)findPropertyWithDic:(id)responseObject {
     propertyStr = [NSMutableString new];
     NSDictionary *dic_responseObject = [responseObject isKindOfClass:[NSDictionary class]]?responseObject:@{};
     id data = dic_responseObject[@"data"];
@@ -151,7 +151,11 @@ NSMutableString *propertyStr;
 }
 
 + (NSString *)allProperty {
-    return [propertyStr substringToIndex:propertyStr.length-1];
+    if (propertyStr.length > 1) {
+        return [propertyStr substringToIndex:propertyStr.length-1];
+    }else{
+        return propertyStr;
+    }
 }
 
 + (NSString *)stringWithDic:(NSDictionary *)dic {

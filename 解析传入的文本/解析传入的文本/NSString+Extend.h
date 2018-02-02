@@ -12,7 +12,7 @@
 
 + (NSString *)stringWithDic:(NSDictionary *)dic;
 
-+ (void)log_propertyWithResponseObject:(id)responseObject;
++ (void)findPropertyWithDic:(id)responseObject;
 
 + (NSString *)allProperty;
 
