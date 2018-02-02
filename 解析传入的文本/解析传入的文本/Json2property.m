@@ -24,15 +24,9 @@
     //合并生成最终需要的字符串
     NSString *result = [NSString allProperty];
     
-    //原本我希望通过以下代码，直接将结果放到剪贴板上。但测试发现以下代码无效。所以只能在Automator中通过AppleScript创建一个新的action
-//    [[NSPasteboard generalPasteboard] declareTypes:[NSArray arrayWithObject:NSStringPboardType] owner:nil];
-//    [[NSPasteboard generalPasteboard] clearContents];
-//    [[NSPasteboard generalPasteboard] setString:result forType:NSStringPboardType];
-    
-    //AppleScript代码如下：
-//    on run {input, parameters}
-//    set the clipboard to (input as string)
-//    end run
+    //拷贝到剪贴板
+    [[NSPasteboard generalPasteboard] declareTypes:[NSArray arrayWithObject:NSStringPboardType] owner:nil];
+    [[NSPasteboard generalPasteboard] setString:result forType:NSStringPboardType];
     
     return result;
 }
