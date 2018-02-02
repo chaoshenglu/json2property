@@ -12,7 +12,7 @@
 
 - (id)runWithInput:(id)input fromAction:(AMAction *)anAction error:(NSDictionary **)errorInfo {
     NSArray *arr = (NSArray *)input;
-    NSString *string = arr.lastObject;
+    NSString *string = [NSString stringWithFormat:@"%@",arr.firstObject];
     NSDictionary *dic = [NSDictionary dictionaryWithString:string];
     [NSString findPropertyWithDic:dic];
     return [NSString allProperty];
